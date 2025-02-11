@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+
+    <style>
+        /* Header Styling */
+        header {
+            background-color: #5b40c7;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        header h1 {
+            color: beige;
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            margin: 0;
+        }
+        body{
+            background-color: #faf7f7;
+            margin: 0;
+            padding:0;
+        }
+        /* Container Styling */
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #a492eb;
+            font-family: "Roboto", sans-serif;
+            font-weight: bolder;
+            
+        }
+
+        /* Book List Styling */
+        .book {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            font-weight: bold;
+            font-family: "Roboto", sans-serif;
+
+        }
+
+        .book span {
+            flex: 1;
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+
+        }
+
+        .author, .issued-date {
+            color: #555;
+            font-family: "Roboto", sans-serif;
+
+            font-weight: normal;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Library Management System</h1>
+    </header>
+
+    <div class="container">
+        <h2 class="title">Books Available</h2>
+
+        <div class="book">
+            <span>Book Title 1</span>
+            <span class="author">Author 1</span>
+            <span class="issued-date">12-05-2024</span>
+        </div>
+        <hr>
+
+        <div class="book">
+            <span>Book Title 2</span>
+            <span class="author">Author 2</span>
+            <span class="issued-date">02-12-2024</span>
+        </div>
+    </div>
+</body>
+</html>
